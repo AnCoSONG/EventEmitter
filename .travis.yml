@@ -1,0 +1,20 @@
+language: node_js
+os: osx
+branches:
+  only:
+  - master
+  - /^deploy-.*$/
+node_js:
+  - 10
+install:
+  - yarn
+script:
+  - yarn test
+
+deploy:
+  provider: npm
+  email: 1197252996@qq.com
+  api_token: $NPM_TOKEN
+  on:
+    branch: master
+  cleanup: true
