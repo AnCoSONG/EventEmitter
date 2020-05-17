@@ -1,0 +1,22 @@
+{
+  "name": "@anco/eventemitter",
+  "version": "0.1.0",
+  "description": "An event emitter implementation by typescript",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "EventEmitter"
+  ],
+  "author": "Song Jinyu <songjinyu@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^25.2.2",
+    "jest": "^26.0.1",
+    "ts-jest": "^26.0.0",
+    "typescript": "^3.9.2"
+  }
+}
