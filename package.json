@@ -1,6 +1,6 @@
 {
   "name": "@anco/eventemitter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "An event emitter implementation by typescript",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -13,6 +13,14 @@
   ],
   "author": "Song Jinyu <songjinyu@gmail.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnCoSONG/EventEmitter.git",
+    "directory": "dist"
+  },
+  "bugs": {
+    "url": "https://github.com/AnCoSONG/EventEmitter/issues"
+  },
   "devDependencies": {
     "@types/jest": "^25.2.2",
     "jest": "^26.0.1",
