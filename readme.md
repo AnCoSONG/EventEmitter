@@ -1,5 +1,5 @@
 # @anco/EventEmitter
-
+![Build Status](https://travis-ci.com/AnCoSONG/EventEmitter.svg?branch=master)
 An event emitter implementation based on ts and build into es5.
 
 Use Map to minify get time complexity.
