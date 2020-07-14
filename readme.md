@@ -33,4 +33,8 @@ ee.off('sleep');
 ## WIP
 
 - [ ] max listeners limitation
-- [ ] some fancy things
+- [ ] chaining
+- [ ] powerful on\off\emit\etc
+  - [ ] on\off\emit levelization
+  - [ ] event regexp
+  - [ ] etc
